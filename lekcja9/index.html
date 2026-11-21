@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interaktywna strona</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Moja interaktywna strona</h1>
+    <div class="container">
+        <div class="card">
+            <h2>Licznik</h2>
+            <p id="counter-display">0</p>
+            <button onclick="dodajPunkt()">+1 punkt</button>
+            <button onclick="resetPunktow()">reset</button>
+        </div>
+        <div class="card">
+            <h2>Losowanie</h2>
+            <p id="random-display">Kliknij i sprawdź!</p>
+            <button onclick="losowanie()">losowanie</button>
+        </div>
+        <div class="card">
+            <h2>Widget</h2>
+            <iframe src = "https://www.google.com/maps/@52.1789385,21.0692159,13.71z?hl=pl&entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D"
+            width = "250" height="200" style="border:0;border-radius: 8px;" loading="lazy"></iframe>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
